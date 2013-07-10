@@ -20,10 +20,10 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     
-    NSDictionary *blah = [self readPlist:@"Property List"];
-    NSLog(@"dic = %@", blah);
+    NSDictionary *dic = [self readPlist:@"Property List"];
+    NSLog(@"Dic = %@", dic);
 
-    [self writePlist];
+    [self writePlistUser];
     [self readPlistUser];
     
 }
@@ -59,7 +59,7 @@
 
 }
 
-- (void)writePlist{
+- (void)writePlistUser{
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
