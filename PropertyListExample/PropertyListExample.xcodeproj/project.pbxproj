@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8413FBDC178CE04D0075C883 /* Otro.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8413FBDB178CE04D0075C883 /* Otro.plist */; };
 		84A05CC9178C3F29003BAEBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A05CC8178C3F29003BAEBA /* UIKit.framework */; };
 		84A05CCB178C3F29003BAEBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A05CCA178C3F29003BAEBA /* Foundation.framework */; };
 		84A05CCD178C3F29003BAEBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A05CCC178C3F29003BAEBA /* CoreGraphics.framework */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8413FBDB178CE04D0075C883 /* Otro.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Otro.plist; sourceTree = "<group>"; };
 		84A05CC4178C3F29003BAEBA /* PropertyListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A05CC8178C3F29003BAEBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84A05CCA178C3F29003BAEBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,7 +92,6 @@
 				84A05CE3178C3F29003BAEBA /* ViewController.xib */,
 				84A05CCF178C3F29003BAEBA /* Supporting Files */,
 				84A05CEB178C3F3C003BAEBA /* Property List.plist */,
-				8413FBDB178CE04D0075C883 /* Otro.plist */,
 			);
 			path = PropertyListExample;
 			sourceTree = "<group>";
@@ -170,7 +167,6 @@
 				84A05CDF178C3F29003BAEBA /* Default-568h@2x.png in Resources */,
 				84A05CE5178C3F29003BAEBA /* ViewController.xib in Resources */,
 				84A05CEC178C3F3C003BAEBA /* Property List.plist in Resources */,
-				8413FBDC178CE04D0075C883 /* Otro.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
