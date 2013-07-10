@@ -53,17 +53,9 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *path = [documentsDirectory stringByAppendingPathComponent:@"Prueba.plist"];
     
-    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSDictionary *data = [[NSDictionary alloc] initWithContentsOfFile: path];
     
-    if (![fileManager fileExistsAtPath: path])
-    {
-        path = [documentsDirectory stringByAppendingPathComponent: [NSString stringWithFormat: @"Prueba.plist"] ];
-    }
-
-    
-    NSMutableDictionary *savedStock = [[NSMutableDictionary alloc] initWithContentsOfFile: path];
-    
-    NSLog(@"prueba = %@", savedStock);
+    NSLog(@"Data = %@", data);
 
 }
 
