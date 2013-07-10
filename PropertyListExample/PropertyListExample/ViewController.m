@@ -74,16 +74,15 @@
     NSString *path = [documentsDirectory stringByAppendingPathComponent:@"Prueba.plist"];
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    NSDictionary *texto = [[NSDictionary alloc] initWithObjectsAndKeys:@"hola", @"chao", @"ola", @"k ase", nil];
-    
     if (![fileManager fileExistsAtPath: path])
     {
         path = [documentsDirectory stringByAppendingPathComponent: [NSString stringWithFormat: @"Prueba.plist"] ];
     }
     
-    if ([texto writeToFile:path atomically:YES]) {
-        NSLog(@"entre");
-    }
+    NSDictionary *texto = [[NSDictionary alloc] initWithObjectsAndKeys:@"key1", @"valor1", @"key2", @"valor2", nil];
+    
+    BOOL res = [texto writeToFile:path atomically:YES];
+    
 }
 
 
